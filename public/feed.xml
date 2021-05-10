@@ -1,0 +1,823 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scores sport="esports" updated="14.04.2021 05:58:50">
+  <match status="Finished" id="246726" league_id="1409" league="FIFA. LigaPro" round="" type="FIFA" timer="" date="14.04.2021" time="00:00">
+    <localteam name="Bayer 04 Leverkusen (Sakh)" id="17158" score="5" />
+    <awayteam name="Dynamo Kyiv (FC Mops)" id="17160" score="2" />
+    <scoreboard />
+  </match>
+  <match status="Started" id="246727" league_id="5597" league="NBA 2K20. Cyber" round="" type="NBA2K" timer="" date="14.04.2021" time="00:00">
+    <localteam name="Brooklyn Nets (Kodas)" id="20483" score="17" />
+    <awayteam name="Philadelphia 76ers (Ash)" id="20484" score="20" />
+    <scoreboard>
+      <period name="1q" localteam="15" visitorteam="10" />
+      <period name="2q" localteam="2" visitorteam="10" />
+    </scoreboard>
+  </match>
+  <match status="Started" id="246728" league_id="5597" league="NBA 2K20. Cyber" round="" type="NBA2K" timer="" date="14.04.2021" time="00:00">
+    <localteam name="Milwaukee Bucks (Lovejoy)" id="20485" score="18" />
+    <awayteam name="Atlanta Hawks (Dazai)" id="20486" score="16" />
+    <scoreboard>
+      <period name="1q" localteam="18" visitorteam="16" />
+    </scoreboard>
+  </match>
+  <match status="Finished" id="246725" league_id="1433" league="NHL 20. Cyber League" round="" type="NHL20" timer="" date="14.04.2021" time="00:00">
+    <localteam name="Colorado Avalanche (cyber)" id="4358" score="9" />
+    <awayteam name="Nashville Predators (cyber)" id="2816" score="6" />
+    <scoreboard>
+      <period name="1p" localteam="2" visitorteam="1" />
+      <period name="2p" localteam="3" visitorteam="3" />
+      <period name="3p" localteam="4" visitorteam="2" />
+    </scoreboard>
+  </match>
+  <match status="Finished" id="246738" league_id="5597" league="NBA 2K20. Cyber" round="" type="NBA2K" timer="" date="14.04.2021" time="00:20">
+    <localteam name="Portland Trail Blazers (cyber)" id="2777" score="81" />
+    <awayteam name="New Orleans Pelicans (cyber)" id="2714" score="89" />
+    <scoreboard>
+      <period name="1q" localteam="20" visitorteam="13" />
+      <period name="2q" localteam="11" visitorteam="24" />
+      <period name="3q" localteam="23" visitorteam="24" />
+      <period name="4q" localteam="27" visitorteam="28" />
+    </scoreboard>
+  </match>
+  <match status="Finished" id="246729" league_id="5598" league="NBA 2K21. Cyber League" round="" type="NBA2K" timer="" date="14.04.2021" time="00:20">
+    <localteam name="Milwaukee Bucks (cyber)" id="2716" score="134" />
+    <awayteam name="Los Angeles Lakers(cyber)" id="2770" score="139" />
+    <scoreboard>
+      <period name="1q" localteam="39" visitorteam="32" />
+      <period name="2q" localteam="25" visitorteam="29" />
+      <period name="3q" localteam="34" visitorteam="38" />
+      <period name="4q" localteam="36" visitorteam="40" />
+    </scoreboard>
+  </match>
+  <match status="Finished" id="246739" league_id="1409" league="FIFA. LigaPro" round="" type="FIFA" timer="" date="14.04.2021" time="00:25">
+    <localteam name="Dynamo Kyiv (FC Mops)" id="17160" score="0" />
+    <awayteam name="Lazio (Carlo)" id="17162" score="3" />
+    <scoreboard />
+  </match>
+  <match status="Started" id="246742" league_id="1436" league="AO2. Cyber tournament. Zhenschiny" round="" type="CyberTennis" timer="" date="14.04.2021" time="00:25">
+    <localteam name="Mladenovic (cyber)" id="2847" score="1" />
+    <awayteam name="Garsia (cyber)" id="2848" score="1" />
+    <scoreboard>
+      <period name="1s" localteam="6" visitorteam="7" />
+      <period name="2s" localteam="6" visitorteam="1" />
+      <period name="3s" localteam="4" visitorteam="5" />
+    </scoreboard>
+  </match>
+  <match status="Not Started" id="246744" league_id="5597" league="NBA 2K20. Cyber" round="" type="NBA2K" timer="" date="14.04.2021" time="00:30">
+    <localteam name="Atlanta Hawks (Dazai)" id="20486" score="" />
+    <awayteam name="Brooklyn Nets (Kodas)" id="20483" score="" />
+    <scoreboard />
+  </match>
+  <match status="Finished" id="246740" league_id="5599" league="Cyber NBA 2K21" round="" type="NBA2K" timer="" date="14.04.2021" time="00:30">
+    <localteam name="Miami Heat (Leo_9562)" id="19101" score="129" />
+    <awayteam name="Boston Celtics (Clime_4751)" id="19329" score="142" />
+    <scoreboard>
+      <period name="1q" localteam="34" visitorteam="44" />
+      <period name="2q" localteam="29" visitorteam="29" />
+      <period name="3q" localteam="29" visitorteam="37" />
+      <period name="4q" localteam="37" visitorteam="32" />
+    </scoreboard>
+  </match>
+  <match status="Finished" id="246743" league_id="1435" league="AO2. Cyber tournament" round="" type="CyberTennis" timer="" date="14.04.2021" time="00:35">
+    <localteam name="Kyrgios (cyber)" id="2841" score="0" />
+    <awayteam name="Monfils (cyber)" id="2843" score="2" />
+    <scoreboard>
+      <period name="1s" localteam="4" visitorteam="6" />
+      <period name="2s" localteam="2" visitorteam="6" />
+    </scoreboard>
+  </match>
+  <match status="Finished" id="246687" league_id="5504" league="FIFA 21. Cyber League" round="" type="FIFA" timer="" date="14.04.2021" time="00:38">
+    <localteam name="Manchester City (Rosi_0440)" id="17670" score="13" />
+    <awayteam name="Liverpool (Felix_1800)" id="17794" score="11" />
+    <scoreboard />
+  </match>
+  <match status="Finished" id="246746" league_id="5599" league="Cyber NBA 2K21" round="" type="NBA2K" timer="" date="14.04.2021" time="00:40">
+    <localteam name="Golden State Warriors (Lando_3131)" id="20167" score="132" />
+    <awayteam name="Portland Trail Blazers (Fox_2212)" id="20368" score="129" />
+    <scoreboard>
+      <period name="1q" localteam="33" visitorteam="33" />
+      <period name="2q" localteam="36" visitorteam="24" />
+      <period name="3q" localteam="24" visitorteam="33" />
+      <period name="4q" localteam="39" visitorteam="39" />
+    </scoreboard>
+  </match>
+  <match status="Finished" id="245317" league_id="5644" league="DPC 2021 S2 SA Lower Division" round="BO3" type="DOTA 2" timer="" date="14.04.2021" time="01:00">
+    <localteam name="5ManMidas" id="17250" score="1" />
+    <awayteam name="Pecado Squad Gaming" id="20379" score="2" />
+    <scoreboard />
+    <games>
+      <game no="1" duration="00:51:11">
+        <radiant team_id="">
+          <player name="P1" id="13659" hero="Puck" kills="12" deaths="2" assists="12" net_worth="33" total_gold_earned="34.5" last_hits="468" denies="11" gold_per_min="675" experience_per_min="761" damage_to_heros="" healing="230" damage_to_builds="4.9" />
+          <player name="qqqqqqqq" id="14058" hero="Troll Warlord" kills="6" deaths="3" assists="12" net_worth="33.8" total_gold_earned="35.4" last_hits="498" denies="14" gold_per_min="691" experience_per_min="731" damage_to_heros="26.1" healing="" damage_to_builds="" />
+          <player name="Wdr" id="13661" hero="Tusk" kills="1" deaths="8" assists="17" net_worth="12.2" total_gold_earned="15.7" last_hits="104" denies="2" gold_per_min="307" experience_per_min="499" damage_to_heros="11.7" healing="" damage_to_builds="228" />
+          <player name="Duffy.达菲熊" id="13959" hero="Death Prophet" kills="6" deaths="6" assists="15" net_worth="26.6" total_gold_earned="23" last_hits="262" denies="2" gold_per_min="450" experience_per_min="563" damage_to_heros="21.5" healing="" damage_to_builds="5.7" />
+          <player name="Sensibility" id="14059" hero="Bane" kills="1" deaths="5" assists="17" net_worth="17.5" total_gold_earned="16.4" last_hits="51" denies="4" gold_per_min="321" experience_per_min="453" damage_to_heros="11.1" healing="704" damage_to_builds="268" />
+        </radiant>
+        <dire team_id="">
+          <player name="dota.thetoo" id="14060" hero="Keeper of the Light" kills="2" deaths="4" assists="16" net_worth="15.5" total_gold_earned="20.3" last_hits="207" denies="4" gold_per_min="396" experience_per_min="499" damage_to_heros="22.5" healing="" damage_to_builds="16" />
+          <player name="dnm" id="13525" hero="Ursa" kills="13" deaths="2" assists="9" net_worth="29.3" total_gold_earned="34.8" last_hits="556" denies="4" gold_per_min="679" experience_per_min="686" damage_to_heros="" healing="" damage_to_builds="1.5" />
+          <player name="lies" id="13530" hero="Bloodseeker" kills="7" deaths="4" assists="12" net_worth="17.5" total_gold_earned="21.4" last_hits="260" denies="6" gold_per_min="419" experience_per_min="520" damage_to_heros="28.1" healing="" damage_to_builds="1.8" />
+          <player name="aikster" id="13532" hero="Lion" kills="1" deaths="9" assists="18" net_worth="8.2" total_gold_earned="11.3" last_hits="34" denies="" gold_per_min="220" experience_per_min="370" damage_to_heros="9.4" healing="" damage_to_builds="" />
+          <player name="RRL" id="13531" hero="Dragon Knight" kills="1" deaths="7" assists="12" net_worth="15.9" total_gold_earned="19.3" last_hits="242" denies="16" gold_per_min="378" experience_per_min="505" damage_to_heros="25.2" healing="" damage_to_builds="" />
+        </dire>
+      </game>
+      <game no="2" duration="00:24:35">
+        <radiant team_id="">
+          <player name="P1" id="13659" hero="Ember Spirit" kills="" deaths="3" assists="4" net_worth="9" total_gold_earned="9.2" last_hits="178" denies="10" gold_per_min="373" experience_per_min="435" damage_to_heros="11.6" healing="" damage_to_builds="" />
+          <player name="Duffy.达菲熊" id="13959" hero="Doom" kills="2" deaths="5" assists="1" net_worth="9.4" total_gold_earned="10.2" last_hits="145" denies="2" gold_per_min="415" experience_per_min="308" damage_to_heros="7.2" healing="" damage_to_builds="158" />
+          <player name="Sensibility" id="14059" hero="Grimstroke" kills="" deaths="6" assists="1" net_worth="3.1" total_gold_earned="5.2" last_hits="61" denies="3" gold_per_min="212" experience_per_min="251" damage_to_heros="2.6" healing="940" damage_to_builds="59" />
+          <player name="qqqqqqqq" id="14058" hero="Spectre" kills="2" deaths="4" assists="2" net_worth="9.1" total_gold_earned="9.9" last_hits="160" denies="3" gold_per_min="404" experience_per_min="521" damage_to_heros="" healing="" damage_to_builds="158" />
+          <player name="Wdr" id="13661" hero="Tiny" kills="1" deaths="5" assists="2" net_worth="4.1" total_gold_earned="4.6" last_hits="41" denies="1" gold_per_min="188" experience_per_min="212" damage_to_heros="4.3" healing="" damage_to_builds="20" />
+        </radiant>
+        <dire team_id="">
+          <player name="RRL" id="13531" hero="Visage" kills="4" deaths="2" assists="10" net_worth="10.1" total_gold_earned="10.5" last_hits="127" denies="13" gold_per_min="428" experience_per_min="561" damage_to_heros="10.2" healing="" damage_to_builds="4" />
+          <player name="dnm" id="13525" hero="Wraith King" kills="6" deaths="1" assists="7" net_worth="19" total_gold_earned="19.7" last_hits="326" denies="8" gold_per_min="801" experience_per_min="717" damage_to_heros="" healing="" damage_to_builds="" />
+          <player name="lies" id="13530" hero="Bloodseeker" kills="7" deaths="0" assists="10" net_worth="11.4" total_gold_earned="12" last_hits="138" denies="21" gold_per_min="490" experience_per_min="558" damage_to_heros="12.3" healing="" damage_to_builds="1.1" />
+          <player name="aikster" id="13532" hero="Earth Spirit" kills="4" deaths="0" assists="11" net_worth="5.8" total_gold_earned="6.9" last_hits="28" denies="3" gold_per_min="279" experience_per_min="440" damage_to_heros="11.2" healing="240" damage_to_builds="" />
+          <player name="dota.thetoo" id="14060" hero="Phoenix" kills="2" deaths="3" assists="15" net_worth="6.3" total_gold_earned="7.1" last_hits="49" denies="4" gold_per_min="289" experience_per_min="375" damage_to_heros="5.9" healing="" damage_to_builds="" />
+        </dire>
+      </game>
+      <game no="3" duration="00:25:40">
+        <radiant team_id="">
+          <player name="P1" id="13659" hero="Ember Spirit" kills="11" deaths="0" assists="16" net_worth="12.7" total_gold_earned="13.4" last_hits="132" denies="8" gold_per_min="523" experience_per_min="601" damage_to_heros="" healing="230" damage_to_builds="1.3" />
+          <player name="Duffy.达菲熊" id="13959" hero="Death Prophet" kills="6" deaths="0" assists="12" net_worth="11.5" total_gold_earned="12" last_hits="142" denies="3" gold_per_min="468" experience_per_min="517" damage_to_heros="9.6" healing="3" damage_to_builds="4.6" />
+          <player name="Wdr" id="13661" hero="Snapfire" kills="3" deaths="4" assists="18" net_worth="7.4" total_gold_earned="7.8" last_hits="31" denies="3" gold_per_min="305" experience_per_min="356" damage_to_heros="8.2" healing="" damage_to_builds="1.3" />
+          <player name="Sensibility" id="14059" hero="Bane" kills="" deaths="3" assists="11" net_worth="4.4" total_gold_earned="6.4" last_hits="10" denies="4" gold_per_min="250" experience_per_min="355" damage_to_heros="5.2" healing="84" damage_to_builds="529" />
+          <player name="qqqqqqqq" id="14058" hero="Lifestealer" kills="9" deaths="0" assists="10" net_worth="15.5" total_gold_earned="18.5" last_hits="274" denies="16" gold_per_min="719" experience_per_min="743" damage_to_heros="22" healing="" damage_to_builds="" />
+        </radiant>
+        <dire team_id="">
+          <player name="lies" id="13530" hero="Bloodseeker" kills="1" deaths="4" assists="4" net_worth="6.7" total_gold_earned="6.7" last_hits="82" denies="10" gold_per_min="261" experience_per_min="278" damage_to_heros="9.4" healing="" damage_to_builds="" />
+          <player name="dnm" id="13525" hero="Wraith King" kills="1" deaths="4" assists="2" net_worth="12.8" total_gold_earned="13.2" last_hits="228" denies="6" gold_per_min="514" experience_per_min="441" damage_to_heros="7.9" healing="" damage_to_builds="" />
+          <player name="RRL" id="13531" hero="Zeus" kills="5" deaths="7" assists="1" net_worth="9.4" total_gold_earned="10.1" last_hits="146" denies="6" gold_per_min="392" experience_per_min="397" damage_to_heros="" healing="" damage_to_builds="" />
+          <player name="aikster" id="13532" hero="Earth Spirit" kills="" deaths="9" assists="3" net_worth="3.2" total_gold_earned="3.8" last_hits="11" denies="1" gold_per_min="147" experience_per_min="176" damage_to_heros="3.9" healing="400" damage_to_builds="" />
+          <player name="dota.thetoo" id="14060" hero="Phoenix" kills="" deaths="5" assists="" net_worth="2.7" total_gold_earned="4.5" last_hits="35" denies="" gold_per_min="175" experience_per_min="193" damage_to_heros="4.1" healing="565" damage_to_builds="18" />
+        </dire>
+      </game>
+    </games>
+  </match>
+  <match status="Finished" id="246748" league_id="5598" league="NBA 2K21. Cyber League" round="" type="NBA2K" timer="" date="14.04.2021" time="01:00">
+    <localteam name="Los Angeles Clippers (cyber)" id="2722" score="142" />
+    <awayteam name="Utah Jazz (cyber)" id="2744" score="140" />
+    <scoreboard>
+      <period name="1q" localteam="31" visitorteam="33" />
+      <period name="2q" localteam="40" visitorteam="35" />
+      <period name="3q" localteam="29" visitorteam="30" />
+      <period name="4q" localteam="42" visitorteam="42" />
+    </scoreboard>
+  </match>
+  <match status="Finished" id="246749" league_id="1433" league="NHL 20. Cyber League" round="" type="NHL20" timer="" date="14.04.2021" time="01:00">
+    <localteam name="Nashville Predators (cyber)" id="2816" score="3" />
+    <awayteam name="Toronto Maple Leafs (cyber)" id="2801" score="13" />
+    <scoreboard>
+      <period name="1p" localteam="3" visitorteam="4" />
+      <period name="2p" localteam="0" visitorteam="7" />
+      <period name="3p" localteam="0" visitorteam="2" />
+    </scoreboard>
+  </match>
+  <match status="Finished" id="246750" league_id="5601" league="NBA 2K21. Liga Pro Challenge tour" round="" type="NBA2K" timer="" date="14.04.2021" time="01:15">
+    <localteam name="Atlanta Hawks (kirillzagay)" id="20482" score="58" />
+    <awayteam name="Memphis Grizzlies (kotpirog131)" id="19592" score="78" />
+    <scoreboard>
+      <period name="1q" localteam="17" visitorteam="22" />
+      <period name="2q" localteam="12" visitorteam="15" />
+      <period name="3q" localteam="13" visitorteam="19" />
+      <period name="4q" localteam="16" visitorteam="22" />
+    </scoreboard>
+  </match>
+  <match status="Finished" id="246722" league_id="1409" league="FIFA. LigaPro" round="" type="FIFA" timer="" date="14.04.2021" time="01:30">
+    <localteam name="Lazio (Carlo)" id="17162" score="3" />
+    <awayteam name="Bayer 04 Leverkusen (Sakh)" id="17158" score="4" />
+    <scoreboard />
+  </match>
+  <match status="Finished" id="246751" league_id="5597" league="NBA 2K20. Cyber" round="" type="NBA2K" timer="" date="14.04.2021" time="01:30">
+    <localteam name="Phoenix Suns (cyber)" id="2740" score="80" />
+    <awayteam name="Minnesota Timberwolves (cyber)" id="2754" score="78" />
+    <scoreboard>
+      <period name="1q" localteam="17" visitorteam="13" />
+      <period name="2q" localteam="27" visitorteam="19" />
+      <period name="3q" localteam="17" visitorteam="21" />
+      <period name="4q" localteam="19" visitorteam="25" />
+    </scoreboard>
+  </match>
+  <match status="Finished" id="246752" league_id="5598" league="NBA 2K21. Cyber League" round="" type="NBA2K" timer="" date="14.04.2021" time="01:40">
+    <localteam name="Denver Nuggets (cyber)" id="2762" score="152" />
+    <awayteam name="Indiana Pacers (cyber)" id="2767" score="125" />
+    <scoreboard>
+      <period name="1q" localteam="44" visitorteam="29" />
+      <period name="2q" localteam="36" visitorteam="35" />
+      <period name="3q" localteam="32" visitorteam="38" />
+      <period name="4q" localteam="40" visitorteam="23" />
+    </scoreboard>
+  </match>
+  <match status="Finished" id="246672" league_id="5504" league="FIFA 21. Cyber League" round="" type="FIFA" timer="" date="14.04.2021" time="01:42">
+    <localteam name="Paris Saint Germain (Palya_0011)" id="20298" score="8" />
+    <awayteam name="Real Madrid (Born_2267)" id="19333" score="9" />
+    <scoreboard />
+  </match>
+  <match status="Finished" id="246741" league_id="5601" league="NBA 2K21. Liga Pro Challenge tour" round="" type="NBA2K" timer="" date="14.04.2021" time="01:45">
+    <localteam name="Sacramento Kings (Jimmy_Walker13)" id="20131" score="51" />
+    <awayteam name="Chicago Bulls (amuralex)" id="20272" score="66" />
+    <scoreboard>
+      <period name="1q" localteam="17" visitorteam="17" />
+      <period name="2q" localteam="9" visitorteam="18" />
+      <period name="3q" localteam="15" visitorteam="15" />
+      <period name="4q" localteam="10" visitorteam="16" />
+    </scoreboard>
+  </match>
+  <match status="Finished" id="246754" league_id="5597" league="NBA 2K20. Cyber" round="" type="NBA2K" timer="" date="14.04.2021" time="01:50">
+    <localteam name="New Orleans Pelicans (cyber)" id="2714" score="82" />
+    <awayteam name="Boston Celtics (cyber)" id="2709" score="72" />
+    <scoreboard>
+      <period name="1q" localteam="18" visitorteam="15" />
+      <period name="2q" localteam="21" visitorteam="20" />
+      <period name="3q" localteam="17" visitorteam="16" />
+      <period name="4q" localteam="26" visitorteam="21" />
+    </scoreboard>
+  </match>
+  <match status="Finished" id="246753" league_id="1435" league="AO2. Cyber tournament" round="" type="CyberTennis" timer="" date="14.04.2021" time="01:50">
+    <localteam name="Goffin (cyber)" id="2827" score="0" />
+    <awayteam name="Cilic (cyber)" id="2832" score="2" />
+    <scoreboard>
+      <period name="1s" localteam="1" visitorteam="6" />
+      <period name="2s" localteam="4" visitorteam="6" />
+    </scoreboard>
+  </match>
+  <match status="Finished" id="246755" league_id="5599" league="Cyber NBA 2K21" round="" type="NBA2K" timer="" date="14.04.2021" time="01:59">
+    <localteam name="Los Angeles Clippers (Astor_1456)" id="19645" score="99" />
+    <awayteam name="Brooklyn Nets (Lando_3131)" id="19570" score="111" />
+    <scoreboard>
+      <period name="1q" localteam="15" visitorteam="38" />
+      <period name="2q" localteam="27" visitorteam="32" />
+      <period name="3q" localteam="35" visitorteam="24" />
+      <period name="4q" localteam="22" visitorteam="17" />
+    </scoreboard>
+  </match>
+  <match status="Finished" id="246723" league_id="1409" league="FIFA. LigaPro" round="" type="FIFA" timer="" date="14.04.2021" time="02:00">
+    <localteam name="CSKA Moscow (ICE)" id="17161" score="3" />
+    <awayteam name="Shakhtar Donetsk (BastaDV)" id="17175" score="1" />
+    <scoreboard />
+  </match>
+  <match status="Finished" id="246756" league_id="1433" league="NHL 20. Cyber League" round="" type="NHL20" timer="" date="14.04.2021" time="02:00">
+    <localteam name="Toronto Maple Leafs (cyber)" id="2801" score="7" />
+    <awayteam name="Winnipeg Jets (cyber)" id="2795" score="9" />
+    <scoreboard>
+      <period name="1p" localteam="0" visitorteam="2" />
+      <period name="2p" localteam="5" visitorteam="3" />
+      <period name="3p" localteam="2" visitorteam="2" />
+      <period name="ot" localteam="0" visitorteam="1" />
+    </scoreboard>
+  </match>
+  <match status="Finished" id="246757" league_id="5597" league="NBA 2K20. Cyber" round="" type="NBA2K" timer="" date="14.04.2021" time="02:10">
+    <localteam name="Sacramento Kings (cyber)" id="2711" score="74" />
+    <awayteam name="Denver Nuggets (cyber)" id="2762" score="67" />
+    <scoreboard>
+      <period name="1q" localteam="17" visitorteam="13" />
+      <period name="2q" localteam="24" visitorteam="18" />
+      <period name="3q" localteam="18" visitorteam="20" />
+      <period name="4q" localteam="15" visitorteam="16" />
+    </scoreboard>
+  </match>
+  <match status="Started" id="246760" league_id="1436" league="AO2. Cyber tournament. Zhenschiny" round="" type="CyberTennis" timer="" date="14.04.2021" time="02:10">
+    <localteam name="Kvitova (cyber)" id="2836" score="1" />
+    <awayteam name="Andeescu (cyber)" id="4696" score="1" />
+    <scoreboard>
+      <period name="1s" localteam="6" visitorteam="1" />
+      <period name="2s" localteam="3" visitorteam="6" />
+      <period name="3s" localteam="5" visitorteam="1" />
+    </scoreboard>
+  </match>
+  <match status="Finished" id="246759" league_id="5599" league="Cyber NBA 2K21" round="" type="NBA2K" timer="" date="14.04.2021" time="02:13">
+    <localteam name="Los Angeles Lakers (Clime_4751)" id="19285" score="113" />
+    <awayteam name="Milwaukee Bucks (Sonk_0395)" id="18923" score="122" />
+    <scoreboard>
+      <period name="1q" localteam="29" visitorteam="39" />
+      <period name="2q" localteam="27" visitorteam="29" />
+      <period name="3q" localteam="29" visitorteam="31" />
+      <period name="4q" localteam="28" visitorteam="23" />
+    </scoreboard>
+  </match>
+  <match status="Finished" id="246758" league_id="5598" league="NBA 2K21. Cyber League" round="" type="NBA2K" timer="" date="14.04.2021" time="02:20">
+    <localteam name="Toronto Raptors (cyber)" id="2706" score="135" />
+    <awayteam name="Miami Heat (cyber)" id="2718" score="116" />
+    <scoreboard>
+      <period name="1q" localteam="37" visitorteam="32" />
+      <period name="2q" localteam="45" visitorteam="25" />
+      <period name="3q" localteam="34" visitorteam="36" />
+      <period name="4q" localteam="19" visitorteam="23" />
+    </scoreboard>
+  </match>
+  <match status="Finished" id="246714" league_id="1409" league="FIFA. LigaPro" round="" type="FIFA" timer="" date="14.04.2021" time="02:30">
+    <localteam name="Lazio (Carlo)" id="17162" score="2" />
+    <awayteam name="Shakhtar Donetsk (BastaDV)" id="17175" score="1" />
+    <scoreboard />
+  </match>
+  <match status="Finished" id="246761" league_id="5597" league="NBA 2K20. Cyber" round="" type="NBA2K" timer="" date="14.04.2021" time="02:30">
+    <localteam name="Minnesota Timberwolves (cyber)" id="2754" score="77" />
+    <awayteam name="Memphis Grizzlies (cyber)" id="2769" score="51" />
+    <scoreboard>
+      <period name="1q" localteam="23" visitorteam="11" />
+      <period name="2q" localteam="15" visitorteam="8" />
+      <period name="3q" localteam="23" visitorteam="13" />
+      <period name="4q" localteam="16" visitorteam="19" />
+    </scoreboard>
+  </match>
+  <match status="Finished" id="246709" league_id="5504" league="FIFA 21. Cyber League" round="" type="FIFA" timer="" date="14.04.2021" time="02:41">
+    <localteam name="Paris Saint Germain (Palya_0011)" id="20298" score="9" />
+    <awayteam name="Liverpool (Felix_1800)" id="17794" score="9" />
+    <scoreboard />
+  </match>
+  <match status="Started" id="246762" league_id="5601" league="NBA 2K21. Liga Pro Challenge tour" round="" type="NBA2K" timer="" date="14.04.2021" time="02:45">
+    <localteam name="Charlotte Hornets (toni_pytko)" id="20488" score="51" />
+    <awayteam name="Oklahoma City Thunder (kotpirog131)" id="20164" score="61" />
+    <scoreboard>
+      <period name="1q" localteam="10" visitorteam="14" />
+      <period name="2q" localteam="18" visitorteam="17" />
+      <period name="3q" localteam="15" visitorteam="16" />
+      <period name="4q" localteam="8" visitorteam="14" />
+    </scoreboard>
+  </match>
+  <match status="Finished" id="246747" league_id="1409" league="FIFA. LigaPro" round="" type="FIFA" timer="" date="14.04.2021" time="03:00">
+    <localteam name="CSKA Moscow (ICE)" id="17161" score="2" />
+    <awayteam name="Bayer 04 Leverkusen (Sakh)" id="17158" score="1" />
+    <scoreboard />
+  </match>
+  <match status="Finished" id="246763" league_id="5598" league="NBA 2K21. Cyber League" round="" type="NBA2K" timer="" date="14.04.2021" time="03:00">
+    <localteam name="Memphis Grizzlies (cyber)" id="2769" score="140" />
+    <awayteam name="Houston Rockets (cyber)" id="2759" score="177" />
+    <scoreboard>
+      <period name="1q" localteam="40" visitorteam="42" />
+      <period name="2q" localteam="36" visitorteam="42" />
+      <period name="3q" localteam="34" visitorteam="42" />
+      <period name="4q" localteam="30" visitorteam="51" />
+    </scoreboard>
+  </match>
+  <match status="Finished" id="246767" league_id="5601" league="NBA 2K21. Liga Pro Challenge tour" round="" type="NBA2K" timer="" date="14.04.2021" time="03:00">
+    <localteam name="Cleveland Cavaliers (kirillzagay)" id="20489" score="54" />
+    <awayteam name="Houston Rockets (jordan1234)" id="18973" score="38" />
+    <scoreboard>
+      <period name="1q" localteam="8" visitorteam="10" />
+      <period name="2q" localteam="14" visitorteam="9" />
+      <period name="3q" localteam="22" visitorteam="10" />
+      <period name="4q" localteam="10" visitorteam="9" />
+    </scoreboard>
+  </match>
+  <match status="Finished" id="246764" league_id="1433" league="NHL 20. Cyber League" round="" type="NHL20" timer="" date="14.04.2021" time="03:00">
+    <localteam name="Washington Capitals (cyber)" id="2811" score="7" />
+    <awayteam name="St. Louis Blues (cyber)" id="2825" score="12" />
+    <scoreboard>
+      <period name="1p" localteam="4" visitorteam="5" />
+      <period name="2p" localteam="1" visitorteam="5" />
+      <period name="3p" localteam="2" visitorteam="2" />
+    </scoreboard>
+  </match>
+  <match status="Finished" id="246765" league_id="1435" league="AO2. Cyber tournament" round="" type="CyberTennis" timer="" date="14.04.2021" time="03:00">
+    <localteam name="Monfils (cyber)" id="2843" score="2" />
+    <awayteam name="Nadal (cyber)" id="2831" score="0" />
+    <scoreboard>
+      <period name="1s" localteam="6" visitorteam="4" />
+      <period name="2s" localteam="6" visitorteam="2" />
+    </scoreboard>
+  </match>
+  <match status="Finished" id="246766" league_id="1418" league="FIFA. Cyber PRO League" round="" type="FIFA" timer="" date="14.04.2021" time="03:05">
+    <localteam name="Russia (cyber)" id="14622" score="0" />
+    <awayteam name="Turkey (cyber)" id="14623" score="0" />
+    <scoreboard />
+  </match>
+  <match status="Finished" id="246768" league_id="5597" league="NBA 2K20. Cyber" round="" type="NBA2K" timer="" date="14.04.2021" time="03:10">
+    <localteam name="Oklahoma City Thunder (cyber)" id="2742" score="73" />
+    <awayteam name="Washington Wizards (cyber)" id="2741" score="84" />
+    <scoreboard>
+      <period name="1q" localteam="18" visitorteam="21" />
+      <period name="2q" localteam="14" visitorteam="20" />
+      <period name="3q" localteam="20" visitorteam="21" />
+      <period name="4q" localteam="21" visitorteam="22" />
+    </scoreboard>
+  </match>
+  <match status="Finished" id="246769" league_id="5597" league="NBA 2K20. Cyber" round="" type="NBA2K" timer="" date="14.04.2021" time="03:30">
+    <localteam name="Memphis Grizzlies (cyber)" id="2769" score="61" />
+    <awayteam name="Chicago Bulls (cyber)" id="2712" score="70" />
+    <scoreboard>
+      <period name="1q" localteam="12" visitorteam="11" />
+      <period name="2q" localteam="11" visitorteam="18" />
+      <period name="3q" localteam="13" visitorteam="19" />
+      <period name="4q" localteam="25" visitorteam="22" />
+    </scoreboard>
+  </match>
+  <match status="Finished" id="246770" league_id="5599" league="Cyber NBA 2K21" round="" type="NBA2K" timer="" date="14.04.2021" time="03:30">
+    <localteam name="Indiana Pacers (Leo_9561)" id="18883" score="147" />
+    <awayteam name="Utah Jazz (Sais_2349)" id="19041" score="102" />
+    <scoreboard>
+      <period name="1q" localteam="32" visitorteam="30" />
+      <period name="2q" localteam="38" visitorteam="23" />
+      <period name="3q" localteam="34" visitorteam="30" />
+      <period name="4q" localteam="43" visitorteam="19" />
+    </scoreboard>
+  </match>
+  <match status="Finished" id="246774" league_id="5601" league="NBA 2K21. Liga Pro Challenge tour" round="" type="NBA2K" timer="" date="14.04.2021" time="03:30">
+    <localteam name="Houston Rockets (jordan1234)" id="18973" score="66" />
+    <awayteam name="Charlotte Hornets (toni_pytko)" id="20488" score="53" />
+    <scoreboard>
+      <period name="1q" localteam="24" visitorteam="9" />
+      <period name="2q" localteam="16" visitorteam="22" />
+      <period name="3q" localteam="14" visitorteam="14" />
+      <period name="4q" localteam="12" visitorteam="8" />
+    </scoreboard>
+  </match>
+  <match status="Finished" id="246773" league_id="5599" league="Cyber NBA 2K21" round="" type="NBA2K" timer="" date="14.04.2021" time="03:35">
+    <localteam name="Houston Rockets (Fox_2212)" id="20102" score="99" />
+    <awayteam name="Phoenix Suns (Miron_6757)" id="18914" score="107" />
+    <scoreboard>
+      <period name="1q" localteam="20" visitorteam="38" />
+      <period name="2q" localteam="23" visitorteam="24" />
+      <period name="3q" localteam="27" visitorteam="21" />
+      <period name="4q" localteam="29" visitorteam="24" />
+    </scoreboard>
+  </match>
+  <match status="Finished" id="246771" league_id="5598" league="NBA 2K21. Cyber League" round="" type="NBA2K" timer="" date="14.04.2021" time="03:40">
+    <localteam name="Boston Celtics (cyber)" id="2709" score="138" />
+    <awayteam name="Washington Wizards (cyber)" id="2741" score="123" />
+    <scoreboard>
+      <period name="1q" localteam="33" visitorteam="37" />
+      <period name="2q" localteam="33" visitorteam="32" />
+      <period name="3q" localteam="30" visitorteam="35" />
+      <period name="4q" localteam="42" visitorteam="19" />
+    </scoreboard>
+  </match>
+  <match status="Finished" id="246776" league_id="1418" league="FIFA. Cyber PRO League" round="" type="FIFA" timer="" date="14.04.2021" time="03:50">
+    <localteam name="Slovenia (cyber)" id="20200" score="0" />
+    <awayteam name="Russia (cyber)" id="14622" score="0" />
+    <scoreboard />
+  </match>
+  <match status="Finished" id="246777" league_id="5597" league="NBA 2K20. Cyber" round="" type="NBA2K" timer="" date="14.04.2021" time="03:50">
+    <localteam name="New York Knicks (cyber)" id="2715" score="86" />
+    <awayteam name="San Antonio Spurs (cyber)" id="2751" score="93" />
+    <scoreboard>
+      <period name="1q" localteam="10" visitorteam="10" />
+      <period name="2q" localteam="28" visitorteam="22" />
+      <period name="3q" localteam="19" visitorteam="28" />
+      <period name="4q" localteam="22" visitorteam="19" />
+    </scoreboard>
+  </match>
+  <match status="Finished" id="246717" league_id="5504" league="FIFA 21. Cyber League" round="" type="FIFA" timer="" date="14.04.2021" time="03:52">
+    <localteam name="Real Madrid (Born_2267)" id="19333" score="12" />
+    <awayteam name="Manchester City (Rosi_0440)" id="17670" score="11" />
+    <scoreboard />
+  </match>
+  <match status="Started" id="245600" league_id="5653" league="DPC 2021 S2 SEA  Lower Division" round="BO3" type="DOTA 2" timer="" date="14.04.2021" time="04:00">
+    <localteam name="Cignal Ultra" id="1469" score="0" />
+    <awayteam name="Motivate.Trust Gaming" id="17432" score="1" />
+    <scoreboard />
+    <games />
+  </match>
+  <match status="Finished" id="246778" league_id="1433" league="NHL 20. Cyber League" round="" type="NHL20" timer="" date="14.04.2021" time="04:00">
+    <localteam name="Vegas Golden Knights (cyber)" id="2797" score="5" />
+    <awayteam name="Tampa Bay Lightning (cyber)" id="2809" score="8" />
+    <scoreboard>
+      <period name="1p" localteam="3" visitorteam="2" />
+      <period name="2p" localteam="1" visitorteam="5" />
+      <period name="3p" localteam="1" visitorteam="1" />
+    </scoreboard>
+  </match>
+  <match status="Finished" id="246780" league_id="1435" league="AO2. Cyber tournament" round="" type="CyberTennis" timer="" date="14.04.2021" time="04:05">
+    <localteam name="Nadal (cyber)" id="2831" score="2" />
+    <awayteam name="Isner (cyber)" id="2845" score="1" />
+    <scoreboard>
+      <period name="1s" localteam="2" visitorteam="6" />
+      <period name="2s" localteam="7" visitorteam="6" />
+      <period name="3s" localteam="6" visitorteam="2" />
+    </scoreboard>
+  </match>
+  <match status="Finished" id="246779" league_id="5597" league="NBA 2K20. Cyber" round="" type="NBA2K" timer="" date="14.04.2021" time="04:10">
+    <localteam name="Philadelphia 76ers (cyber)" id="2717" score="83" />
+    <awayteam name="Dallas Mavericks (cyber)" id="2705" score="60" />
+    <scoreboard>
+      <period name="1q" localteam="14" visitorteam="16" />
+      <period name="2q" localteam="24" visitorteam="14" />
+      <period name="3q" localteam="26" visitorteam="11" />
+      <period name="4q" localteam="19" visitorteam="19" />
+    </scoreboard>
+  </match>
+  <match status="Finished" id="246782" league_id="5601" league="NBA 2K21. Liga Pro Challenge tour" round="" type="NBA2K" timer="" date="14.04.2021" time="04:15">
+    <localteam name="Oklahoma City Thunder (kotpirog131)" id="20164" score="60" />
+    <awayteam name="Cleveland Cavaliers (kirillzagay)" id="20489" score="67" />
+    <scoreboard>
+      <period name="1q" localteam="12" visitorteam="16" />
+      <period name="2q" localteam="16" visitorteam="17" />
+      <period name="3q" localteam="16" visitorteam="18" />
+      <period name="4q" localteam="14" visitorteam="14" />
+    </scoreboard>
+  </match>
+  <match status="Finished" id="246781" league_id="5598" league="NBA 2K21. Cyber League" round="" type="NBA2K" timer="" date="14.04.2021" time="04:20">
+    <localteam name="Oklahoma City Thunder (cyber)" id="2742" score="112" />
+    <awayteam name="Los Angeles Lakers(cyber)" id="2770" score="147" />
+    <scoreboard>
+      <period name="1q" localteam="35" visitorteam="42" />
+      <period name="2q" localteam="26" visitorteam="31" />
+      <period name="3q" localteam="23" visitorteam="44" />
+      <period name="4q" localteam="28" visitorteam="30" />
+    </scoreboard>
+  </match>
+  <match status="Finished" id="246783" league_id="1418" league="FIFA. Cyber PRO League" round="" type="FIFA" timer="" date="14.04.2021" time="04:37">
+    <localteam name="Turkey (cyber)" id="14623" score="4" />
+    <awayteam name="Slovenia (cyber)" id="20200" score="2" />
+    <scoreboard />
+  </match>
+  <match status="Started" id="246629" league_id="5643" league="WCAA Spring Sunshine Cup" round="BO3" type="DOTA 2" timer="" date="14.04.2021" time="04:45">
+    <localteam name="Dream Maker" id="17697" score="0" />
+    <awayteam name="5Cats" id="20308" score="1" />
+    <scoreboard />
+    <games />
+  </match>
+  <match status="Finished" id="246775" league_id="5504" league="FIFA 21. Cyber League" round="" type="FIFA" timer="" date="14.04.2021" time="04:45">
+    <localteam name="FC Barcelona (Born_2267)" id="19043" score="11" />
+    <awayteam name="Manchester United (Rosi_0440)" id="20070" score="10" />
+    <scoreboard />
+  </match>
+  <match status="Finished" id="246785" league_id="5601" league="NBA 2K21. Liga Pro Challenge tour" round="" type="NBA2K" timer="" date="14.04.2021" time="04:45">
+    <localteam name="Charlotte Hornets (toni_pytko)" id="20488" score="57" />
+    <awayteam name="Cleveland Cavaliers (kirillzagay)" id="20489" score="65" />
+    <scoreboard>
+      <period name="1q" localteam="14" visitorteam="19" />
+      <period name="2q" localteam="14" visitorteam="13" />
+      <period name="3q" localteam="12" visitorteam="15" />
+      <period name="4q" localteam="17" visitorteam="18" />
+    </scoreboard>
+  </match>
+  <match status="Finished" id="246786" league_id="1436" league="AO2. Cyber tournament. Zhenschiny" round="" type="CyberTennis" timer="" date="14.04.2021" time="04:50">
+    <localteam name="Azarenka (cyber)" id="4697" score="0" />
+    <awayteam name="Pliskova (cyber)" id="2833" score="2" />
+    <scoreboard>
+      <period name="1s" localteam="3" visitorteam="6" />
+      <period name="2s" localteam="4" visitorteam="6" />
+    </scoreboard>
+  </match>
+  <match status="Finished" id="246787" league_id="5597" league="NBA 2K20. Cyber" round="" type="NBA2K" timer="" date="14.04.2021" time="05:00">
+    <localteam name="Denver Nuggets (cyber)" id="2762" score="81" />
+    <awayteam name="Utah Jazz (cyber)" id="2744" score="71" />
+    <scoreboard>
+      <period name="1q" localteam="23" visitorteam="19" />
+      <period name="2q" localteam="17" visitorteam="10" />
+      <period name="3q" localteam="15" visitorteam="21" />
+      <period name="4q" localteam="26" visitorteam="21" />
+    </scoreboard>
+  </match>
+  <match status="Started" id="246784" league_id="5598" league="NBA 2K21. Cyber League" round="" type="NBA2K" timer="" date="14.04.2021" time="05:00">
+    <localteam name="Los Angeles Clippers (cyber)" id="2722" score="87" />
+    <awayteam name="Portland Trail Blazers (cyber)" id="2777" score="110" />
+    <scoreboard>
+      <period name="1q" localteam="27" visitorteam="40" />
+      <period name="2q" localteam="27" visitorteam="39" />
+      <period name="3q" localteam="33" visitorteam="31" />
+    </scoreboard>
+  </match>
+  <match status="Started" id="246788" league_id="5599" league="Cyber NBA 2K21" round="" type="NBA2K" timer="" date="14.04.2021" time="05:00">
+    <localteam name="Charlotte Hornets (Master_6453)" id="18929" score="69" />
+    <awayteam name="Cleveland Cavaliers (Swed_3412)" id="18930" score="110" />
+    <scoreboard>
+      <period name="1q" localteam="15" visitorteam="35" />
+      <period name="2q" localteam="25" visitorteam="41" />
+      <period name="3q" localteam="29" visitorteam="34" />
+      <period name="4q" localteam="0" visitorteam="0" />
+    </scoreboard>
+  </match>
+  <match status="Started" id="246789" league_id="1433" league="NHL 20. Cyber League" round="" type="NHL20" timer="" date="14.04.2021" time="05:00">
+    <localteam name="Winnipeg Jets (cyber)" id="2795" score="6" />
+    <awayteam name="Carolina Hurricanes (cyber)" id="2806" score="3" />
+    <scoreboard>
+      <period name="1p" localteam="2" visitorteam="3" />
+      <period name="2p" localteam="4" visitorteam="0" />
+    </scoreboard>
+  </match>
+  <match status="Finished" id="246792" league_id="5601" league="NBA 2K21. Liga Pro Challenge tour" round="" type="NBA2K" timer="" date="14.04.2021" time="05:15">
+    <localteam name="Houston Rockets (jordan1234)" id="18973" score="46" />
+    <awayteam name="Oklahoma City Thunder (kotpirog131)" id="20164" score="62" />
+    <scoreboard>
+      <period name="1q" localteam="8" visitorteam="18" />
+      <period name="2q" localteam="13" visitorteam="10" />
+      <period name="3q" localteam="9" visitorteam="13" />
+      <period name="4q" localteam="16" visitorteam="21" />
+    </scoreboard>
+  </match>
+  <match status="Started" id="246791" league_id="5597" league="NBA 2K20. Cyber" round="" type="NBA2K" timer="" date="14.04.2021" time="05:20">
+    <localteam name="San Antonio Spurs (cyber)" id="2751" score="49" />
+    <awayteam name="Golden State Warriors (cyber)" id="17452" score="83" />
+    <scoreboard>
+      <period name="1q" localteam="15" visitorteam="21" />
+      <period name="2q" localteam="14" visitorteam="11" />
+      <period name="3q" localteam="7" visitorteam="29" />
+      <period name="4q" localteam="13" visitorteam="22" />
+    </scoreboard>
+  </match>
+  <match status="Started" id="246794" league_id="5599" league="Cyber NBA 2K21" round="" type="NBA2K" timer="" date="14.04.2021" time="05:35">
+    <localteam name="Oklahoma City Thunder (Sais_2349)" id="19153" score="33" />
+    <awayteam name="New York Knicks (Wini_8800)" id="19114" score="35" />
+    <scoreboard>
+      <period name="1q" localteam="26" visitorteam="25" />
+      <period name="2q" localteam="7" visitorteam="10" />
+    </scoreboard>
+  </match>
+  <match status="Started" id="246805" league_id="5597" league="NBA 2K20. Cyber" round="" type="NBA2K" timer="" date="14.04.2021" time="05:40">
+    <localteam name="Atlanta Hawks (cyber)" id="2720" score="41" />
+    <awayteam name="New York Knicks (cyber)" id="2715" score="19" />
+    <scoreboard>
+      <period name="1q" localteam="19" visitorteam="15" />
+      <period name="2q" localteam="22" visitorteam="4" />
+    </scoreboard>
+  </match>
+  <match status="Started" id="246806" league_id="5598" league="NBA 2K21. Cyber League" round="" type="NBA2K" timer="" date="14.04.2021" time="05:40">
+    <localteam name="Utah Jazz (cyber)" id="2744" score="39" />
+    <awayteam name="Dallas Mavericks (cyber)" id="2705" score="40" />
+    <scoreboard>
+      <period name="1q" localteam="39" visitorteam="40" />
+    </scoreboard>
+  </match>
+  <match status="Started" id="246745" league_id="5597" league="NBA 2K20. Cyber" round="" type="NBA2K" timer="" date="14.04.2021" time="06:00">
+    <localteam name="Boston Celtics (cyber)" id="2709" score="0" />
+    <awayteam name="Brooklyn Nets (cyber)" id="2707" score="0" />
+    <scoreboard>
+      <period name="1q" localteam="0" visitorteam="0" />
+    </scoreboard>
+  </match>
+  <match status="Started" id="246807" league_id="1435" league="AO2. Cyber tournament" round="" type="CyberTennis" timer="" date="14.04.2021" time="06:00">
+    <localteam name="Isner (cyber)" id="2845" score="0" />
+    <awayteam name="Wawrinka (cyber)" id="2842" score="0" />
+    <scoreboard>
+      <period name="1s" localteam="1" visitorteam="1" />
+    </scoreboard>
+  </match>
+  <match status="Not Started" id="246630" league_id="5643" league="WCAA Spring Sunshine Cup" round="BO3" type="DOTA 2" timer="" date="14.04.2021" time="06:45">
+    <localteam name="Army Geniuses" id="16948" score="0" />
+    <awayteam name="5Cats" id="20308" score="0" />
+    <scoreboard />
+    <games />
+  </match>
+  <match status="Not Started" id="245640" league_id="5654" league="DPC 2021 S2 SEA  Upper Division" round="BO3" type="DOTA 2" timer="" date="14.04.2021" time="07:00">
+    <localteam name="Lilgun" id="17389" score="0" />
+    <awayteam name="Omega Esports" id="17381" score="0" />
+    <scoreboard />
+    <games />
+  </match>
+  <match status="Started" id="246772" league_id="1436" league="AO2. Cyber tournament. Zhenschiny" round="" type="CyberTennis" timer="" date="14.04.2021" time="07:00">
+    <localteam name="Pliskova (cyber)" id="2833" score="0" />
+    <awayteam name="Bencic (cyber)" id="2834" score="0" />
+    <scoreboard>
+      <period name="1s" localteam="0" visitorteam="1" />
+    </scoreboard>
+  </match>
+  <match status="Not Started" id="243330" league_id="5640" league="i-League" round="BO3" type="DOTA 2" timer="" date="14.04.2021" time="08:00">
+    <localteam name="Elephant" id="17150" score="0" />
+    <awayteam name="RNG" id="1084" score="0" />
+    <scoreboard />
+    <games />
+  </match>
+  <match status="Not Started" id="246659" league_id="5643" league="WCAA Spring Sunshine Cup" round="BO3" type="DOTA 2" timer="" date="14.04.2021" time="09:15">
+    <localteam name="YG" id="17206" score="0" />
+    <awayteam name="ShenZhen" id="17153" score="0" />
+    <scoreboard />
+    <games />
+  </match>
+  <match status="Not Started" id="245641" league_id="5654" league="DPC 2021 S2 SEA  Upper Division" round="BO3" type="DOTA 2" timer="" date="14.04.2021" time="10:00">
+    <localteam name="TNC" id="1088" score="0" />
+    <awayteam name="Execration" id="1626" score="0" />
+    <scoreboard />
+    <games />
+  </match>
+  <match status="Not Started" id="246527" league_id="5658" league="REPUBLEAGUE Season 1 (Europe)" round="" type="CS GO" timer="" date="14.04.2021" time="10:00">
+    <localteam name="SKADE" id="1072" score="" />
+    <awayteam name="NaVi 2" id="20470" score="" />
+    <scoreboard />
+    <lineups>
+      <localteam />
+      <awayteam />
+    </lineups>
+    <maps />
+    <streams />
+  </match>
+  <match status="Not Started" id="246483" league_id="5657" league="Blast Premier: Spring (World)" round="" type="CS GO" timer="" date="14.04.2021" time="10:30">
+    <localteam name="Team Spirit" id="20462" score="" />
+    <awayteam name="Extra Salt" id="17482" score="" />
+    <scoreboard />
+    <lineups>
+      <localteam />
+      <awayteam />
+    </lineups>
+    <maps />
+    <streams />
+  </match>
+  <match status="Not Started" id="246528" league_id="5658" league="REPUBLEAGUE Season 1 (Europe)" round="" type="CS GO" timer="" date="14.04.2021" time="11:00">
+    <localteam name="sAw" id="1456" score="" />
+    <awayteam name="Caronte" id="20471" score="" />
+    <scoreboard />
+    <lineups>
+      <localteam />
+      <awayteam />
+    </lineups>
+    <maps />
+    <streams />
+  </match>
+  <match status="Not Started" id="246529" league_id="5658" league="REPUBLEAGUE Season 1 (Europe)" round="" type="CS GO" timer="" date="14.04.2021" time="12:00">
+    <localteam name="Sprout" id="1133" score="" />
+    <awayteam name="Sampi" id="16679" score="" />
+    <scoreboard />
+    <lineups>
+      <localteam />
+      <awayteam />
+    </lineups>
+    <maps />
+    <streams />
+  </match>
+  <match status="Not Started" id="244621" league_id="5645" league="DPC 2021 S2 EU Lower Division" round="BO3" type="DOTA 2" timer="" date="14.04.2021" time="13:00">
+    <localteam name="Hippomaniacs" id="17404" score="0" />
+    <awayteam name="No Bounty Hunter" id="17446" score="0" />
+    <scoreboard />
+    <games />
+  </match>
+  <match status="Not Started" id="246530" league_id="5658" league="REPUBLEAGUE Season 1 (Europe)" round="" type="CS GO" timer="" date="14.04.2021" time="13:00">
+    <localteam name="ex-Win" id="20472" score="" />
+    <awayteam name="Entropiq" id="16812" score="" />
+    <scoreboard />
+    <lineups>
+      <localteam />
+      <awayteam />
+    </lineups>
+    <maps />
+    <streams />
+  </match>
+  <match status="Not Started" id="246484" league_id="5657" league="Blast Premier: Spring (World)" round="" type="CS GO" timer="" date="14.04.2021" time="13:30">
+    <localteam name="Gambit Esports" id="20234" score="" />
+    <awayteam name="NASR" id="1612" score="" />
+    <scoreboard />
+    <lineups>
+      <localteam />
+      <awayteam />
+    </lineups>
+    <maps />
+    <streams />
+  </match>
+  <match status="Not Started" id="244463" league_id="1667" league="European Masters (Europe)" round="" type="League Of Legends" timer="" date="14.04.2021" time="14:30">
+    <localteam name="FC Schalke 04 Evolution" id="16080" score="" />
+    <awayteam name="BT Excel" id="6261" score="" />
+    <scoreboard />
+  </match>
+  <match status="Not Started" id="244464" league_id="1667" league="European Masters (Europe)" round="" type="League Of Legends" timer="" date="14.04.2021" time="15:30">
+    <localteam name="Cream Real Betis" id="20330" score="" />
+    <awayteam name="Karmine Corp" id="20331" score="" />
+    <scoreboard />
+  </match>
+  <match status="Not Started" id="244622" league_id="5646" league="DPC 2021 S2 EU Upper Division" round="BO3" type="DOTA 2" timer="" date="14.04.2021" time="16:00">
+    <localteam name="Liquid" id="1120" score="0" />
+    <awayteam name="Alliance" id="1109" score="0" />
+    <scoreboard />
+    <games />
+  </match>
+  <match status="Not Started" id="246485" league_id="5657" league="Blast Premier: Spring (World)" round="" type="CS GO" timer="" date="14.04.2021" time="16:30">
+    <localteam name="FURIA" id="1102" score="" />
+    <awayteam name="MIBR" id="1171" score="" />
+    <scoreboard />
+    <lineups>
+      <localteam />
+      <awayteam />
+    </lineups>
+    <maps />
+    <streams />
+  </match>
+  <match status="Not Started" id="244465" league_id="1667" league="European Masters (Europe)" round="" type="League Of Legends" timer="" date="14.04.2021" time="16:30">
+    <localteam name="Macko Esports" id="20332" score="" />
+    <awayteam name="Mousesports" id="6221" score="" />
+    <scoreboard />
+  </match>
+  <match status="Not Started" id="244466" league_id="1667" league="European Masters (Europe)" round="" type="League Of Legends" timer="" date="14.04.2021" time="17:30">
+    <localteam name="Illuminar Gaming" id="20333" score="" />
+    <awayteam name="UCAM Esports Club" id="20334" score="" />
+    <scoreboard />
+  </match>
+  <match status="Not Started" id="244467" league_id="1667" league="European Masters (Europe)" round="" type="League Of Legends" timer="" date="14.04.2021" time="18:30">
+    <localteam name="SAIM SE SuppUp" id="20335" score="" />
+    <awayteam name="Ago Rogue" id="6226" score="" />
+    <scoreboard />
+  </match>
+  <match status="Not Started" id="245224" league_id="5645" league="DPC 2021 S2 EU Lower Division" round="BO3" type="DOTA 2" timer="" date="14.04.2021" time="19:00">
+    <localteam name="Ghost frogs" id="20371" score="0" />
+    <awayteam name="Creepwave" id="17443" score="0" />
+    <scoreboard />
+    <games />
+  </match>
+  <match status="Not Started" id="244866" league_id="5647" league="DPC 2021 S2 SA Upper Division" round="BO3" type="DOTA 2" timer="" date="14.04.2021" time="19:00">
+    <localteam name="bc" id="1342" score="0" />
+    <awayteam name="Hokori" id="17252" score="0" />
+    <scoreboard />
+    <games />
+  </match>
+  <match status="Not Started" id="244468" league_id="1667" league="European Masters (Europe)" round="" type="League Of Legends" timer="" date="14.04.2021" time="19:30">
+    <localteam name="G2 Arctic" id="16022" score="" />
+    <awayteam name="Misfits Premier" id="16078" score="" />
+    <scoreboard />
+  </match>
+  <match status="Not Started" id="244867" league_id="5647" league="DPC 2021 S2 SA Upper Division" round="BO3" type="DOTA 2" timer="" date="14.04.2021" time="22:00">
+    <localteam name="NoPing e-sports" id="1488" score="0" />
+    <awayteam name="SG Esports" id="17325" score="0" />
+    <scoreboard />
+    <games />
+  </match>
+</scores>
