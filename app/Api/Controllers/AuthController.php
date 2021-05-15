@@ -4,6 +4,7 @@ namespace App\Api\Controllers;
 
 use App\Http\Requests\RegisterUserRequest;
 use App\Services\UserService;
+use Illuminate\Http\Request;
 
 class AuthController extends BaseController
 {
@@ -14,10 +15,14 @@ class AuthController extends BaseController
         $this->userService = $userService;
     }
 
-    public function register(RegisterUserRequest $request)
+    public function register(Request $request)
     {
 
-        $fields = $request->validate();
+        $fields = $request->validate([
+            'name' => 'required|string',
+            'email' => 'required|string|unique:users,email',
+            'password' => 'required|string|confirmed',
+        ]);
 
         $responseData = $this->userService->getUserToken($fields);
         return response($responseData, 201);

@@ -1989,19 +1989,40 @@ __webpack_require__.r(__webpack_exports__);
   name: "MatchList",
   data: function data() {
     return {
-      matches: []
+      matches: [],
+      tokenConfig: ''
     };
   },
   mounted: function mounted() {
-    this.getAllMatches();
+    this.registerUser();
     this.timer = setInterval(this.getAllMatches, 60000);
   },
   methods: {
-    getAllMatches: function getAllMatches() {
+    registerUser: function registerUser() {
       var _this = this;
 
-      this.axios.get('http://localhost:8000/api/matches').then(function (response) {
-        _this.matches = response.data;
+      this.axios.post('http://localhost:8000/api/user/register', {
+        name: "testAPI12345",
+        email: "testAPI12345@mail.com",
+        password: "testAPI123456",
+        password_confirmation: "testAPI123456"
+      }).then(function (response) {
+        _this.tokenConfig = {
+          headers: {
+            Authorization: "Bearer ".concat(response.data.token)
+          }
+        };
+
+        _this.getAllMatches();
+      })["catch"](function (e) {
+        console.error(e);
+      });
+    },
+    getAllMatches: function getAllMatches() {
+      var _this2 = this;
+
+      this.axios.get('http://localhost:8000/api/matches', this.tokenConfig).then(function (response) {
+        _this2.matches = response.data;
       })["catch"](function (e) {
         console.error(e);
       });
@@ -2019,17 +2040,17 @@ __webpack_require__.r(__webpack_exports__);
   },
   computed: {
     matchDatas: function matchDatas() {
-      var _this2 = this;
+      var _this3 = this;
 
       return this.matches.map(function (match) {
         if (match.period_score) {
-          match.period_score = _this2.removeDuplicate(JSON.parse(match.period_score), 'period');
+          match.period_score = _this3.removeDuplicate(JSON.parse(match.period_score), 'period');
         } else {
           match.period_score = [];
         }
 
         if (match.teams_vs) {
-          match.teams_vs = _this2.removeDuplicate(JSON.parse(match.teams_vs), 'team_name');
+          match.teams_vs = _this3.removeDuplicate(JSON.parse(match.teams_vs), 'team_name');
           match.localteam = match.teams_vs.filter(function (item) {
             return item.type === 'localteam';
           })[0];

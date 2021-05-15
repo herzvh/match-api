@@ -55,15 +55,32 @@ export default {
     data() {
         return {
             matches: [],
+            tokenConfig: '',
         }
     },
     mounted() {
-        this.getAllMatches();
+        this.registerUser();
         this.timer = setInterval(this.getAllMatches, 60000);
     },
     methods: {
+        registerUser() {
+            this.axios.post('http://localhost:8000/api/user/register', {
+                name: "testAPI12345",
+                email: "testAPI12345@mail.com",
+                password: "testAPI123456",
+                password_confirmation: "testAPI123456"
+            }).then((response) => {
+                    this.tokenConfig = {
+                        headers: { Authorization: `Bearer ${response.data.token}` }
+                    };
+                    this.getAllMatches();
+                })
+                .catch((e) => {
+                    console.error(e);
+                })
+        },
         getAllMatches() {
-            this.axios.get('http://localhost:8000/api/matches').then((response) => {
+            this.axios.get('http://localhost:8000/api/matches', this.tokenConfig).then((response) => {
                 this.matches = response.data;
             })
                 .catch((e) => {
@@ -93,7 +110,7 @@ export default {
                 console.log(match)
                 return match;
             })
-        }
+        },
     },
     beforeDestroy () {
         this.cancelAutoUpdate();
