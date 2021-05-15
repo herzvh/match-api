@@ -60,6 +60,7 @@ export default {
     },
     mounted() {
         this.getAllMatches();
+        this.timer = setInterval(this.getAllMatches, 60000);
     },
     methods: {
         getAllMatches() {
@@ -72,6 +73,9 @@ export default {
         },
         removeDuplicate(arr, key) {
             return arr.filter((v,i,a) => a.findIndex(t => (t[key] === v[key])) === i);
+        },
+        cancelAutoUpdate () {
+            clearInterval(this.timer);
         }
     },
     computed: {
@@ -92,6 +96,9 @@ export default {
             })
         }
     },
+    beforeDestroy () {
+        this.cancelAutoUpdate();
+    }
 }
 </script>
 

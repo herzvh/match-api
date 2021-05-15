@@ -1997,6 +1997,7 @@ __webpack_require__.r(__webpack_exports__);
   },
   mounted: function mounted() {
     this.getAllMatches();
+    this.timer = setInterval(this.getAllMatches, 60000);
   },
   methods: {
     getAllMatches: function getAllMatches() {
@@ -2014,6 +2015,9 @@ __webpack_require__.r(__webpack_exports__);
           return t[key] === v[key];
         }) === i;
       });
+    },
+    cancelAutoUpdate: function cancelAutoUpdate() {
+      clearInterval(this.timer);
     }
   },
   computed: {
@@ -2041,6 +2045,9 @@ __webpack_require__.r(__webpack_exports__);
         return match;
       });
     }
+  },
+  beforeDestroy: function beforeDestroy() {
+    this.cancelAutoUpdate();
   }
 });
 
