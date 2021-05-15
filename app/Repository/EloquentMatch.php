@@ -25,7 +25,7 @@ class EloquentMatch implements MatchRepository
                                             \'"team_name":"\', t.name , \'",\' ,
                                             \'"player":"\', p.name , \'",\' ,
                                             \'"score":"\', mt.score , \'",\' ,
-                                            \'"type":"\', mt.type ,
+                                            \'"type":"\', mt.type , \'"\' ,
                                         \'}\')), \']\') as teams_vs
                     from matches m
                     left join leagues l2 on l2.id = m.league_id
