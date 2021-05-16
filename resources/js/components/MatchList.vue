@@ -59,17 +59,12 @@ export default {
         }
     },
     mounted() {
-        this.registerUser();
+        this.getToken();
         this.timer = setInterval(this.getAllMatches, 60000);
     },
     methods: {
-        registerUser() {
-            this.axios.post('http://localhost:8000/api/user/register', {
-                name: "testAPI12345",
-                email: "testAPI12345@mail.com",
-                password: "testAPI123456",
-                password_confirmation: "testAPI123456"
-            }).then((response) => {
+        getToken() {
+            this.axios.post('user/token').then((response) => {
                     this.tokenConfig = {
                         headers: { Authorization: `Bearer ${response.data.token}` }
                     };
@@ -80,7 +75,7 @@ export default {
                 })
         },
         getAllMatches() {
-            this.axios.get('http://localhost:8000/api/matches', this.tokenConfig).then((response) => {
+            this.axios.get('matches', this.tokenConfig).then((response) => {
                 this.matches = response.data;
             })
                 .catch((e) => {

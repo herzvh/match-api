@@ -1994,19 +1994,14 @@ __webpack_require__.r(__webpack_exports__);
     };
   },
   mounted: function mounted() {
-    this.registerUser();
+    this.getToken();
     this.timer = setInterval(this.getAllMatches, 60000);
   },
   methods: {
-    registerUser: function registerUser() {
+    getToken: function getToken() {
       var _this = this;
 
-      this.axios.post('http://localhost:8000/api/user/register', {
-        name: "testAPI12345",
-        email: "testAPI12345@mail.com",
-        password: "testAPI123456",
-        password_confirmation: "testAPI123456"
-      }).then(function (response) {
+      this.axios.post('user/token').then(function (response) {
         _this.tokenConfig = {
           headers: {
             Authorization: "Bearer ".concat(response.data.token)
@@ -2021,7 +2016,7 @@ __webpack_require__.r(__webpack_exports__);
     getAllMatches: function getAllMatches() {
       var _this2 = this;
 
-      this.axios.get('http://localhost:8000/api/matches', this.tokenConfig).then(function (response) {
+      this.axios.get('matches', this.tokenConfig).then(function (response) {
         _this2.matches = response.data;
       })["catch"](function (e) {
         console.error(e);
@@ -32116,6 +32111,7 @@ __webpack_require__.r(__webpack_exports__);
 __webpack_require__(/*! ./bootstrap */ "./resources/js/bootstrap.js");
 
 vue__WEBPACK_IMPORTED_MODULE_0___default.a.component('app', _components_App__WEBPACK_IMPORTED_MODULE_1__["default"]);
+axios__WEBPACK_IMPORTED_MODULE_2___default.a.defaults.baseURL = "http://localhost:8000/api/";
 vue__WEBPACK_IMPORTED_MODULE_0___default.a.use(vue_axios__WEBPACK_IMPORTED_MODULE_3___default.a, axios__WEBPACK_IMPORTED_MODULE_2___default.a);
 var app = new vue__WEBPACK_IMPORTED_MODULE_0___default.a({
   el: '#app'

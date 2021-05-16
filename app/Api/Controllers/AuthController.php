@@ -24,7 +24,13 @@ class AuthController extends BaseController
             'password' => 'required|string|confirmed',
         ]);
 
-        $responseData = $this->userService->getUserToken($fields);
+        $responseData = $this->userService->createUser($fields);
         return response($responseData, 201);
+    }
+
+    public function getToken()
+    {
+        $responseData = $this->userService->getUserToken();
+        return response($responseData, 200);
     }
 }

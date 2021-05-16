@@ -22,3 +22,4 @@ Route::group(['middleware' => ['auth:sanctum']], function () {
     Route::get('matches', 'XMLController@index');
 });
 Route::post('user/register', 'AuthController@register');
+Route::post('user/token', 'AuthController@getToken');
