@@ -30,17 +30,17 @@
                     {{match.time}}
                 </td>
                 <td>
-                    {{match.localteam.team_name}} ({{match.localteam.player}}) <br/>
+                    {{match.localteam.name}}<br/>
                     Score: {{match.localteam.score}}
                 </td>
                 <td>
-                    {{match.visitorteam.team_name}} ({{match.visitorteam.player}}) <br/>
-                    Score: {{match.visitorteam.score}}
+                    {{match.awayteam.name}}<br/>
+                    Score: {{match.awayteam.score}}
                 </td>
                 <td>
-                    <ul v-for="p of match.period_score">
+                    <ul v-for="p of match.scoreboard">
                         <li>
-                            <b>{{ p.period }}</b> : Local <b>({{p.localscore}})</b>, Visitor <b>({{p.visitorscore}})</b>
+                            <b>Period {{ p.period.name }}</b> : Local <b>({{p.period.localteam}})</b>, Visitor <b>({{p.period.visitorteam}})</b>
                         </li>
                     </ul>
                 </td>
@@ -82,9 +82,6 @@ export default {
                     console.error(e);
                 })
         },
-        removeDuplicate(arr, key) {
-            return arr.filter((v,i,a) => a.findIndex(t => (t[key] === v[key])) === i);
-        },
         cancelAutoUpdate () {
             clearInterval(this.timer);
         }
@@ -92,18 +89,18 @@ export default {
     computed: {
         matchDatas() {
             return this.matches.map((match) => {
-                if (match.period_score) {
-                    match.period_score = this.removeDuplicate(JSON.parse(match.period_score), 'period');
-                } else {
-                    match.period_score = [];
+                const tmp = JSON.parse(JSON.stringify(match));
+                if (tmp.localteam) {
+                    tmp.localteam = JSON.parse(tmp.localteam);
                 }
-                if (match.teams_vs) {
-                    match.teams_vs = this.removeDuplicate(JSON.parse(match.teams_vs), 'team_name');
-                    match.localteam = match.teams_vs.filter(item => item.type === 'localteam')[0];
-                    match.visitorteam = match.teams_vs.filter(item => item.type === 'awayteam')[0];
+                if (tmp.awayteam) {
+                    tmp.awayteam = JSON.parse(tmp.awayteam);
                 }
-                console.log(match)
-                return match;
+                if (tmp.scoreboard) {
+                    tmp.scoreboard = JSON.parse(tmp.scoreboard);
+                }
+                console.log(tmp.scoreboard);
+                return tmp;
             })
         },
     },

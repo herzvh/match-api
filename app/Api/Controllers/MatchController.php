@@ -2,13 +2,16 @@
 
 namespace App\Api\Controllers;
 
+use App\Api\Controllers\BaseController;
 use App\Services\MatchService;
-use App\Services\XMLReaderService;
 use Illuminate\Http\Request;
 
-class XMLController extends BaseController
+class MatchController extends BaseController
 {
-    protected $matchService;
+    /**
+     * @var MatchService
+     */
+    private $matchService;
 
     public function __construct(MatchService $matchService)
     {

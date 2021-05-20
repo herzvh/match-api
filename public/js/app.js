@@ -2022,40 +2022,29 @@ __webpack_require__.r(__webpack_exports__);
         console.error(e);
       });
     },
-    removeDuplicate: function removeDuplicate(arr, key) {
-      return arr.filter(function (v, i, a) {
-        return a.findIndex(function (t) {
-          return t[key] === v[key];
-        }) === i;
-      });
-    },
     cancelAutoUpdate: function cancelAutoUpdate() {
       clearInterval(this.timer);
     }
   },
   computed: {
     matchDatas: function matchDatas() {
-      var _this3 = this;
-
       return this.matches.map(function (match) {
-        if (match.period_score) {
-          match.period_score = _this3.removeDuplicate(JSON.parse(match.period_score), 'period');
-        } else {
-          match.period_score = [];
+        var tmp = JSON.parse(JSON.stringify(match));
+
+        if (tmp.localteam) {
+          tmp.localteam = JSON.parse(tmp.localteam);
         }
 
-        if (match.teams_vs) {
-          match.teams_vs = _this3.removeDuplicate(JSON.parse(match.teams_vs), 'team_name');
-          match.localteam = match.teams_vs.filter(function (item) {
-            return item.type === 'localteam';
-          })[0];
-          match.visitorteam = match.teams_vs.filter(function (item) {
-            return item.type === 'awayteam';
-          })[0];
+        if (tmp.awayteam) {
+          tmp.awayteam = JSON.parse(tmp.awayteam);
         }
 
-        console.log(match);
-        return match;
+        if (tmp.scoreboard) {
+          tmp.scoreboard = JSON.parse(tmp.scoreboard);
+        }
+
+        console.log(tmp.scoreboard);
+        return tmp;
       });
     }
   },
@@ -19830,13 +19819,7 @@ var render = function() {
           ]),
           _vm._v(" "),
           _c("td", [
-            _vm._v(
-              "\n                " +
-                _vm._s(match.localteam.team_name) +
-                " (" +
-                _vm._s(match.localteam.player) +
-                ") "
-            ),
+            _vm._v("\n                " + _vm._s(match.localteam.name)),
             _c("br"),
             _vm._v(
               "\n                Score: " +
@@ -19846,31 +19829,25 @@ var render = function() {
           ]),
           _vm._v(" "),
           _c("td", [
-            _vm._v(
-              "\n                " +
-                _vm._s(match.visitorteam.team_name) +
-                " (" +
-                _vm._s(match.visitorteam.player) +
-                ") "
-            ),
+            _vm._v("\n                " + _vm._s(match.awayteam.name)),
             _c("br"),
             _vm._v(
               "\n                Score: " +
-                _vm._s(match.visitorteam.score) +
+                _vm._s(match.awayteam.score) +
                 "\n            "
             )
           ]),
           _vm._v(" "),
           _c(
             "td",
-            _vm._l(match.period_score, function(p) {
+            _vm._l(match.scoreboard, function(p) {
               return _c("ul", [
                 _c("li", [
-                  _c("b", [_vm._v(_vm._s(p.period))]),
+                  _c("b", [_vm._v("Period " + _vm._s(p.period.name))]),
                   _vm._v(" : Local "),
-                  _c("b", [_vm._v("(" + _vm._s(p.localscore) + ")")]),
+                  _c("b", [_vm._v("(" + _vm._s(p.period.localteam) + ")")]),
                   _vm._v(", Visitor "),
-                  _c("b", [_vm._v("(" + _vm._s(p.visitorscore) + ")")])
+                  _c("b", [_vm._v("(" + _vm._s(p.period.visitorteam) + ")")])
                 ])
               ])
             }),
